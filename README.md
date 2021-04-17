@@ -1,5 +1,3 @@
 # leonelfernando60.github.io
-mi primer repositorio github pages
-Datos creados sjsjsjsjsj
-por q no lee mis mensajes
-la ptm
+WOW III
+PAGINA INFORMATIVA SOBRE UNO DE LOS MEJORES JUEGO QUE SE HAYA CREADO EN LAS ULTIMAS DECADAS PARA LAS MULTIJUGADORES  
