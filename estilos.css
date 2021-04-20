@@ -1,14 +1,26 @@
-BODY {color:green }
+body {
+	
+	background-image: url("../imagenes/fondo.jpg");
+ 	background-repeat: repeat;
 
-P {color:red; 
-   font-size:20px;
-   font-family:Courier;
-   font-weight:bold;
-   font-style:italic;
-   line-height:30px;
-   letter-spacing:5px;
-   text-decoration:underline;
-   text-transform:capitalize;
-   text-align:left;
-   text-indent:30px;
+}
+
+.titulo-principal {
+	text-align : center;
+	padding-top: 20px;
+	color: white;
+	padding-bottom: 20px;
+	padding-right: 50px;
+}
+.desc-video {
+	text-align: center;
+	color: white;	
+}
+
+#foot {
+	text-align: right;
+}
+
+#carouselExampleControls {
+	padding-bottom: 20px;
 }
