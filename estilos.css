@@ -8,13 +8,13 @@ body {
 .titulo-principal {
 	 text-align : center;
 	 padding-top: 20px;
-	 color: white;
+	 color: black;
 	 padding-bottom: 20px;
 	 padding-right: 50px;
 }
 .desc-video {
 	 text-align: center;
-	 color: white;	
+	 color: black;	
 }
 
 #foot {
