@@ -17,6 +17,11 @@ body {
 	 color: black;	
 }
 
+.desc-imag {
+	text-align: center;
+	color: black;
+}
+
 #foot {
     text-align: right;
 }
