@@ -1,26 +1,52 @@
 body {
-	
-	background-image: url("../imagenes/fondo.jpg");
- 	background-repeat: repeat;
-
+	background-color: #281504;
 }
-
+.container-basic {
+  background-image: url("../imagenes/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  width: 90%;
+  margin: auto;
+}
 .titulo-principal {
-	text-align : center;
-	padding-top: 20px;
-	color: white;
-	padding-bottom: 20px;
-	padding-right: 50px;
+  width: 100%;
+  text-align: center;
+}
+.titulo-principal h1 {
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 80px;
+  padding: 40px 0px;
+  color: rgb(179, 6, 6);
+}
+.desc-titulo-principal {
+  font-size: 20px;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+.desc-titulo-secundario h2 {
+  width: 100%;
+  font-weight: 600;
+  font-size: 40px;
+  color: green;
+  text-decoration: underline;
+}
+.desc-titulo-secundario{
+	text-align: start;
 }
 .desc-video {
-	text-align: center;
-	color: white;	
+	padding: 40px 0px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
 }
-
 #foot {
-	text-align: right;
+  text-align: right;
 }
 
 #carouselExampleControls {
-	padding-bottom: 20px;
+  padding-bottom: 20px;
 }
