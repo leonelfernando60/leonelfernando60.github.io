@@ -83,4 +83,13 @@
   .noticias {
     width: 90%;
   }
+  .article-image {
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .article-contain {
+    flex-basis: 100%;
+    padding: 10px 20px;
+  }
 }
