@@ -16,3 +16,10 @@ body{
 	padding-top: 50px;
 	margin-top: 50px;
 }
+.row {
+	border: 1px solid black;
+	margin-top: 15px;
+	margin-right: 50px;
+	margin-left: 80px;
+	background-color: lightblue;
+}
