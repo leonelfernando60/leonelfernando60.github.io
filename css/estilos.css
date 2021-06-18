@@ -22,7 +22,7 @@ body {
   font-weight: 600;
   font-size: 80px;
   padding: 40px 0px;
-  color: rgb(179, 6, 6);
+  color: rgb(243, 75, 75);
 }
 .desc-titulo-principal {
   font-size: 20px;
@@ -34,11 +34,11 @@ body {
   width: 100%;
   font-weight: 600;
   font-size: 40px;
-  color: green;
-  text-decoration: underline;
+  color: rgb(180, 22, 1);
+  text-decoration: center;
 }
 .desc-titulo-secundario {
-  text-align: start;
+  text-align: start;  
 }
 .desc-video {
   padding: 40px 0px;
