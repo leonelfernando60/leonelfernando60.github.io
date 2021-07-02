@@ -26,7 +26,7 @@ body {
 }
 .desc-titulo-principal {
   font-size: 20px;
-  color: white;
+  color: rgb(55, 173, 55);
   width: 100%;
   text-align: center;
 }
@@ -44,7 +44,7 @@ body {
   padding: 40px 0px;
   text-align: center;
   font-size: 20px;
-  color: white;
+  color: #085F00;
 }
 #foot {
   text-align: right;
