@@ -14,8 +14,8 @@
   width: 100%;
 }
 .noticias-section h2 {
-  color: #ffff;
-  font-size: 26px;
+  color: #0B5F03;
+  font-size: 24px;
 }
 .article {
   display: flex;
@@ -53,7 +53,7 @@
 .article-contain strong {
   font-size: 25px;
   font-weight: 300;
-  color: white;
+  color: #2CC994;
 }
 .article-contain p {
   padding-top: 5px;
