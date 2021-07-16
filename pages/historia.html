@@ -51,9 +51,9 @@
                 <a class="nav-link" href="./historia.html">HISTORIA</a>
               </li>
             </ul>
-            <form class="d-flex">
-              <button class="btn btn-dark" type="submit">Cheats</button>
-            </form>
+            <div class="d-flex">
+              <button class="btn btn-danger" type="button" id="cheats">Cheats</button>
+            </div>
           </div>
         </div>
       </nav>
@@ -114,6 +114,12 @@
       <img src="https://larepublica.pe/resizer/ski-ZGKdrK_HFoGJrXWBc2thvZI=/1250x735/top/smart/cloudfront-us-east-1.images.arcpublishing.com/gruporepublica/L32UWRZT4ZDM7PR5YOUUPBFFOU.jpg" width="500"
        height="241">
     </div>
+    <div class="alert-container">
+      <div class="alert">
+        <h1 class="alert__title">En progreso<span id="close-alert">X</span></h1>
+        <p class="alert__text">Esta versión no cuenta con trucos por el momento<br>Gracias por visitarnos :D</p>
+      </div>
+    </div>
 <div>
 
       
@@ -123,5 +129,19 @@
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
       crossorigin="anonymous"
     ></script>
+    <script>
+      window.addEventListener("load",()=>{
+        const btnCheats = document.querySelector("#cheats")
+        const closeAlert = document.querySelector("#close-alert")
+        const alert = document.querySelector(".alert-container")
+        btnCheats.addEventListener("click",()=>{
+          alert.classList.add("alert-show")
+        })
+        closeAlert.addEventListener("click",()=>{
+          alert.classList.remove("alert-show")
+        })
+      })
+
+    </script>
   </body>
 </html>

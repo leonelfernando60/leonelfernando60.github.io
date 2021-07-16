@@ -11,6 +11,7 @@ body {
   background-attachment: fixed;
   width: 100%;
   overflow: hidden;
+  position: relative;
 }
 .titulo-principal {
   width: 100%;
@@ -38,18 +39,17 @@ body {
   text-decoration: center;
 }
 .desc-titulo-secundario {
-  text-align: start;  
+  text-align: start;
 }
 .desc-video {
   padding: 40px 0px;
   text-align: center;
   font-size: 20px;
-  color: #085F00;
+  color: #085f00;
 }
 #foot {
   text-align: right;
 }
-
 
 .slider {
   width: 100%;
@@ -71,6 +71,56 @@ body {
   height: 800px;
   object-fit: cover;
   object-position: center;
+}
+.alert-container {
+  display: none;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(40, 44, 52, 0.6);
+  justify-content: center;
+  align-items: center;
+}
+.alert {
+  background-color: #ffff;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 30%;
+  padding: 30px 40px;
+  min-width: 450px;
+  position: relative;
+  box-shadow: 1px 2px 3px rgb(60, 65, 75);
+}
+.alert__title {
+  flex-basis: 100%;
+  font-size: 25px;
+  padding: 25px 0px;
+  margin: 0px;
+}
+.alert__title span {
+  cursor: pointer;
+  position: absolute;
+  right: 2%;
+  top: 2%;
+  font-size: 20px;
+  color: black;
+  display: block;
+  padding: 2px 10px;
+  border: 1px solid rgb(60, 65, 75);
+}
+.alert__title span:hover {
+  background-color: rgb(60, 65, 75);
+  color: white;
+  border: 1px solid white;
+}
+.alert__text {
+  font-size: 18px;
+  flex-basis: 100%;
+}
+.alert-show {
+  display: flex;
 }
 @media screen and (max-width: 768px) {
   .slider__images picture img {
